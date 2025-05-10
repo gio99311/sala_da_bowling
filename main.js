@@ -42,19 +42,19 @@ const salaBowling = {
         this.giocatori.forEach( (player, index)=> {
             let tr = document.createElement("tr")
             tr.innerHTML = `
-            <th scope = "row">${index+1}</th>
-            <td>${player.name}</td>
-            <td>${player.punteggio[0] ? player.punteggio[0] : 0}</td>
-            <td>${player.punteggio[1] ? player.punteggio[1] : 0}</td>
-            <td>${player.punteggio[2] ? player.punteggio[2] : 0}</td>
-            <td>${player.punteggio[3] ? player.punteggio[3] : 0}</td>
-            <td>${player.punteggio[4] ? player.punteggio[4] : 0}</td>
-            <td>${player.punteggio[5] ? player.punteggio[5] : 0}</td>
-            <td>${player.punteggio[6] ? player.punteggio[6] : 0}</td>
-            <td>${player.punteggio[7] ? player.punteggio[7] : 0}</td>
-            <td>${player.punteggio[8] ? player.punteggio[8] : 0}</td>
-            <td>${player.punteggio[9] ? player.punteggio[9] : 0}</td>
-            <td>${player.punteggioFinale}</td>
+            <th scope = "row" class="text-center pb-2">${index+1}</th>
+            <td class="text-center pb-2">${player.name}</td>
+            <td class="text-center pb-2">${player.punteggio[0] ? player.punteggio[0] : 0}</td>
+            <td class="text-center pb-2">${player.punteggio[1] ? player.punteggio[1] : 0}</td>
+            <td class="text-center pb-2">${player.punteggio[2] ? player.punteggio[2] : 0}</td>
+            <td class="text-center pb-2">${player.punteggio[3] ? player.punteggio[3] : 0}</td>
+            <td class="text-center pb-2">${player.punteggio[4] ? player.punteggio[4] : 0}</td>
+            <td class="text-center pb-2">${player.punteggio[5] ? player.punteggio[5] : 0}</td>
+            <td class="text-center pb-2">${player.punteggio[6] ? player.punteggio[6] : 0}</td>
+            <td class="text-center pb-2">${player.punteggio[7] ? player.punteggio[7] : 0}</td>
+            <td class="text-center pb-2">${player.punteggio[8] ? player.punteggio[8] : 0}</td>
+            <td class="text-center pb-2">${player.punteggio[9] ? player.punteggio[9] : 0}</td>
+            <td class=" f-heading text-center pb-2">${player.punteggioFinale}</td>
         `
             trWrapper.appendChild(tr) 
             
