@@ -18,9 +18,13 @@ Una semplice applicazione web in JavaScript che simula una sala da bowling virtu
 - Pulsanti di reset per i punteggi o per i giocatori
 
 ## 📷 Screenshot
-
+-Start
 ![Index](./img/start.png)
+
+-Strike
 ![Index](./img/strike.png)
+
+-Winner
 ![Index](./img/winner.png)
 
 ## 📦 Come usarlo
