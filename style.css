@@ -1,0 +1,29 @@
+.custom-box{
+    border: 2px solid rgba(99, 99, 99, 0.63);
+    border-radius: 10px;
+    min-height: 300px;
+    padding: 20px;
+}
+
+.winner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: purple;
+    background-color: white;
+    text-align: center;
+    width: 50%;
+    padding: 20px 30px;
+    border: 2px solid purple;
+    font-size: 80px;
+}
+
+.imgStrike{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 300px;
+    width: 300px;
+}
