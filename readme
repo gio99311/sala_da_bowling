@@ -19,9 +19,9 @@ Una semplice applicazione web in JavaScript che simula una sala da bowling virtu
 
 ## 📷 Screenshot
 
-![Start](./screenshot/start.png)
-![Strike](./screenshot/strike.png)
-![Winner](./screenshot/winner.png)
+![Start](./start.png)
+![Strike](.strike.png)
+![Winner](.winner.png)
 
 ## 📦 Come usarlo
 
